@@ -1,6 +1,6 @@
 // @ts-check
 const { ECMA_VERSION, JAVASCRIPT_FILES } = require('./_constants');
-const requirePackage = require('../_require-package');
+const requirePackage = require('./_require-package');
 
 requirePackage('eslint', 'eslint');
 

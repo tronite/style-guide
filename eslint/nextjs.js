@@ -1,6 +1,6 @@
 // @ts-check
 const { JAVASCRIPT_FILES } = require('./_constants');
-const requirePackage = require('../_require-package');
+const requirePackage = require('./_require-package');
 
 requirePackage('next', '@next/eslint-plugin-next');
 

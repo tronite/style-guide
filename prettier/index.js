@@ -1,5 +1,5 @@
 // @ts-check
-const requirePackage = require('../_require-package');
+const requirePackage = require('../eslint/_require-package');
 
 requirePackage('prettier', 'prettier');
 

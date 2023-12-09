@@ -1,5 +1,5 @@
 // @ts-check
-const pkgJson = require('./package.json');
+const pkgJson = require('../package.json');
 
 const log = (message = '') => process.stderr.write(`${message}\n`);
 

@@ -1,6 +1,6 @@
 // @ts-check
 const { TYPESCRIPT_FILES } = require('./_constants');
-const requirePackage = require('../_require-package');
+const requirePackage = require('./_require-package');
 
 requirePackage('typescript', 'typescript');
 
