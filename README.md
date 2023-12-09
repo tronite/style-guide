@@ -40,7 +40,7 @@ For more information, see: [Scoped configuration with `overrides`](#scoped-confi
 
 The following additional configs are available:
 
-- `@tronite/style-guide/eslint/nextjs` (requires `@next/eslint-plugin-next` to be installed at the same version as `next`)
+- `@tronite/style-guide/eslint/next` (requires `@next/eslint-plugin-next` to be installed at the same version as `next`)
 - `@tronite/style-guide/eslint/react`
 - `@tronite/style-guide/eslint/typescript` (requires `typescript` to be installed and [additional configuration](#configuring-eslint-for-typescript))
 
@@ -191,8 +191,8 @@ Alternatively, you can add the following to your `package.json` file:
 This package provides the following TypeScript configurations:
 
 - `@tronite/style-guide/typescript/esm` - for [ESM](https://nodejs.org/api/esm.html) projects
-- `@tronite/style-guide/typescript/nestjs` - for [NestJS](https://nestjs.com/) projects
-- `@tronite/style-guide/typescript/nextjs` - for [Next.js](https://nextjs.org/) projects
+- `@tronite/style-guide/typescript/next` - for [Next.js](https://nextjs.org/) projects
+- `@tronite/style-guide/typescript/node` - for [Node.js](https://nodejs.org/)
 - `@tronite/style-guide/typescript/react.es5` - for [React](https://reactjs.org/) projects that target ES5
 - `@tronite/style-guide/typescript/react.es2020` - for [React](https://reactjs.org/) projects that target ES2020
 
@@ -219,7 +219,7 @@ To use one of these configurations, create a `tsconfig.json` file in the root of
 }
 ```
 
-To use one of these configurations, replace `<config>` with the desired configuration name, such as `nextjs`. Don't forget to update the `include` and `exclude` arrays with the appropriate source file paths. Each configuration has its own default `include` and `exclude` paths, so make sure to extend them from the chosen configuration.
+To use one of these configurations, replace `<config>` with the desired configuration name, such as `next`. Don't forget to update the `include` and `exclude` arrays with the appropriate source file paths. Each configuration has its own default `include` and `exclude` paths, so make sure to extend them from the chosen configuration.
 
 ## Credits
 
