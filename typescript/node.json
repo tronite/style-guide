@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "./base.json",
-  "display": "Tronite NestJS",
+  "display": "Tronite Node.js",
   "docs": "https://github.com/tronite/style-guide",
   "compilerOptions": {
     "module": "commonjs",
