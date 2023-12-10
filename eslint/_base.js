@@ -15,8 +15,6 @@ module.exports = {
   },
   // Report unused `eslint-disable` comments.
   reportUnusedDisableDirectives: true,
-  // Tell ESLint not to ignore dot-files, which are ignored by default.
-  ignorePatterns: ['!.*.js'],
   // Global settings used by all overrides.
   settings: {
     // Use the Node resolver by default.
