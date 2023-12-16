@@ -32,6 +32,9 @@ module.exports = {
       parserOptions: {
         requireConfigFile: false,
       },
+      rules: {
+        'import/order': 'off',
+      },
     },
   ],
 };
