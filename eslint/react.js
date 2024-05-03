@@ -7,6 +7,8 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:import/react',
     'prettier',
+    require.resolve('./rules/react'),
+    require.resolve('./rules/jsx-a11y'),
   ],
   settings: {
     react: {
@@ -14,12 +16,6 @@ module.exports = {
     },
   },
   rules: {
-    'react/prop-types': 'off',
-    'react/react-in-jsx-scope': 'off',
-    'jsx-a11y/no-autofocus': 'off',
-    'jsx-a11y/anchor-is-valid': 'off',
-    'jsx-a11y/click-events-have-key-events': 'off',
-    'jsx-a11y/no-static-element-interactions': 'off',
     'react-hooks/exhaustive-deps': 'off',
     'import/order': 'off',
   },

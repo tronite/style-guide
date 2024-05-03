@@ -9,7 +9,7 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 
 /** @type {import('eslint').ESLint} */
 module.exports = {
-  extends: ['eslint:recommended', 'plugin:import/recommended', 'prettier', 'plugin:@typescript-eslint/recommended'],
+  extends: ['eslint:recommended', 'plugin:import/recommended', 'prettier'],
   env: {
     [`es${ECMA_VERSION}`]: true,
   },
