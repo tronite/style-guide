@@ -43,6 +43,7 @@ The following additional configs are available:
 - `@tronite/style-guide/eslint/next` (requires `@next/eslint-plugin-next` to be installed at the same version as `next`)
 - `@tronite/style-guide/eslint/react`
 - `@tronite/style-guide/eslint/typescript` (requires `typescript` to be installed and [additional configuration](#configuring-eslint-for-typescript))
+- `@tronite/style-guide/eslint/vitest`
 
 > You'll need to use `require.resolve` to provide ESLint with absolute paths,
 > due to an issue around ESLint config resolution (see
