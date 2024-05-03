@@ -9,7 +9,7 @@ module.exports = {
   overrides: [
     {
       files: TYPESCRIPT_FILES,
-      extends: ['plugin:@typescript-eslint/recommended', 'plugin:import/typescript', 'prettier'],
+      extends: ['plugin:@typescript-eslint/recommended', 'plugin:import/typescript', 'plugin:tsdoc', 'prettier'],
       rules: {
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
@@ -17,6 +17,7 @@ module.exports = {
         '@typescript-eslint/no-var-requires': 'off',
         '@typescript-eslint/no-unused-vars': 'warn',
         'import/order': 'off',
+        'tsdoc/syntax': 'error',
       },
     },
   ],

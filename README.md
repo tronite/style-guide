@@ -21,7 +21,7 @@ npm install --save-dev @tronite/style-guide
 # If you use yarn
 yarn add --dev @tronite/style-guide
 
-# If you use pmpm
+# If you use pnpm
 pnpm add --save-dev @tronite/style-guide
 ```
 
@@ -168,7 +168,7 @@ npm install --save-dev prettier
 # If you use yarn
 yarn add --dev prettier
 
-# If you use pmpm
+# If you use pnpm
 pnpm add --save-dev prettier
 ```
 
@@ -205,7 +205,7 @@ npm install --save-dev typescript
 # If you use yarn
 yarn add --dev typescript
 
-# If you use pmpm
+# If you use pnpm
 pnpm add --save-dev typescript
 ```
 
